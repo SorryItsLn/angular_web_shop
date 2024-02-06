@@ -1,0 +1,25 @@
+<div class="container">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{ product.title }}</mat-card-title>
+    </mat-card-header>
+    <div class="card_content">
+      <div><img mat-card-image src="{{ product.img }}" /></div>
+      <div class="card_contant_description">
+        <mat-card-content>
+          <p>Price:{{ product.price }}</p>
+          <p>Процессор: {{ product.configure.CPU }}</p>
+          <p>ОЗУ:{{ product.configure.operation_memory }}</p>
+          <p>ПЗУ:{{ product.configure.memomery }}</p>
+          <p>Display: {{ product.configure.display }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-flat-button color="primary">В корзину</button>
+          <button mat-flat-button color="primary" routerLink="/products">
+            Обратно
+          </button>
+        </mat-card-actions>
+      </div>
+    </div>
+  </mat-card>
+</div>

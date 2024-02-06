@@ -1,0 +1,21 @@
+.container {
+  margin: 0px auto 0;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+img {
+  max-width: 300px;
+}
+mat-card-actions {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Iphone 13pro Max",
+      "price": 138000,
+      "img": "assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "A17",
+        "operation_memory": "3 гб",
+        "memomery": "256 гб",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Iphone 15pro Max",
+      "price": 250000,
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "A20",
+        "operation_memory": "4 гб",
+        "memomery": "256 гб",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Iphone 14pro Max",
+      "price": 180000,
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "A19",
+        "operation_memory": "3 гб",
+        "memomery": "256 гб",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Iphone 11pro Max",
+      "price": 100000,
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "A17",
+        "operation_memory": "4 гб",
+        "memomery": "256 гб",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Iphone 12pro Max",
+      "price": 144000,
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "A17",
+        "operation_memory": "2 гб",
+        "memomery": "256 гб",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": "93ce",
+      "title": "123",
+      "price": "123",
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "213",
+        "operation_memory": "231",
+        "memomery": "231",
+        "display": "321"
+      }
+    },
+    {
+      "id": "dadf",
+      "title": "iofhjdoi",
+      "price": "oijzvdloij",
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "oijzxv;oicj",
+        "operation_memory": "oijszxd;oij",
+        "memomery": "oijusgodizj",
+        "display": "oijvaol;i"
+      }
+    },
+    {
+      "id": "9034"
+    }
+  ]
+}

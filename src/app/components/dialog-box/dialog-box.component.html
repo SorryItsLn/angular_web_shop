@@ -1,0 +1,72 @@
+<ol class="dialog_main">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Введите название товара</mat-label>
+      <input
+        formControlName="title"
+        matInput
+        placeholder="Iphone 15pro max"
+        value=""
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Введите стоимость</mat-label>
+      <input
+        formControlName="price"
+        matInput
+        placeholder="Добавить стоимость"
+        value=""
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Введите CPU</mat-label>
+      <input
+        formControlName="cpu"
+        matInput
+        placeholder="Добавить CPU "
+        value=""
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Введите Операвтивную память </mat-label>
+      <input
+        formControlName="operation_memory"
+        matInput
+        placeholder="Добавить Операвтивную память "
+        value=""
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Постоянную память</mat-label>
+      <input
+        formControlName="memomery"
+        matInput
+        placeholder="Добавить Постоянную память"
+        value=""
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Введите Дисплей</mat-label>
+      <input
+        formControlName="display"
+        matInput
+        placeholder="Добавить Дисплей"
+        value=""
+      />
+    </mat-form-field>
+
+    <!-- btn close or submit -->
+    <button mat-flat-button type="submit" color="primary">
+      Добавить товар
+    </button>
+    <button
+      mat-flat-button
+      type="reset"
+      color="primary"
+      style="margin-left: 10px"
+      (click)="onNoClick()"
+    >
+      Отмена
+    </button>
+  </form>
+</ol>
