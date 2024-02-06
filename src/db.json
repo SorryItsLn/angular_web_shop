@@ -85,7 +85,16 @@
       }
     },
     {
-      "id": "9034"
+      "id": "ee3b",
+      "title": "123",
+      "price": "213",
+      "img": "./assets/images/26509.500@2x.jpeg",
+      "configure": {
+        "CPU": "123fsda",
+        "operation_memory": "213j1poi",
+        "memomery": "pfsdaoujfo;i",
+        "display": "12;oi2eju1d"
+      }
     }
   ]
 }

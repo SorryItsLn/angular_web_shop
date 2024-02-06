@@ -29,10 +29,14 @@ export class ProductsComponent implements OnInit, OnDestroy {
     dialogRef.afterClosed().subscribe((result) => {
       console.log('The dialog was closed');
     });
+
     dialogRef.afterClosed().subscribe((data) => this.postData(data));
   }
 
   postData(data: IProducts) {
+    if (!data) {
+      return;
+    }
     console.log(data, 'data create product');
 
     this.productService
